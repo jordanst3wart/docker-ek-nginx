@@ -1,10 +1,11 @@
-From https://bitbucket.org/nshou/elasticsearch-kibana/downloads/
+##### Read me
+default.conf is a nginx conf file.
+setup.sh should show the process of setting up a monitoring server, with https, and basic auth.
 
 
-# run with
-docker run -d -p 9200:9200 -p 5601:5601 nshou/elasticsearch-kibana
-# might need nginx to cover ports
 
-
-Or this:
+Generally inspired from:
 https://github.com/robbert229/docker-elk-nginx
+Another elasticsearch kibana stack:
+https://bitbucket.org/nshou/elasticsearch-kibana/downloads/
+
